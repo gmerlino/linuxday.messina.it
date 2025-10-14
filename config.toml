@@ -1,4 +1,4 @@
-title = "Linux Day Messina 2024"
+title = "Linux Day Messina 2025"
 base_url = "https://linuxday.messina.it"
 
 theme = "linux-day"
@@ -12,12 +12,12 @@ highlight_code = false
 [extra]
 
 [extra.event]
-date = "Sabato 26 ottobre"
-year = "2024"
+date = "Sabato 25 ottobre"
+year = "2025"
 location = "Dipartimento di Ingegneria"
 location_extra = "Aula Magna"
-eventbrite_url = "https://www.eventbrite.com/e/linux-day-2024-tickets-1051924503507"
+eventbrite_url = ""
 
 [extra.meta]
-description = "Giornata nazionale del software libero e delle libertà digitali. Sabato 26 ottobre al Dipartimento di Ingegneria"
-keywords = "linux, linux day, messina, 2024, free software, software libero, libertà digitali, unime, ingegneria"
+description = "Giornata nazionale del software libero e delle libertà digitali. Sabato 25 ottobre al Dipartimento di Ingegneria"
+keywords = "linux, linux day, messina, 2025, free software, software libero, libertà digitali, unime, ingegneria"

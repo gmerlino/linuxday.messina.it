@@ -7,60 +7,12 @@ time = "13:00"
 title = "Pausa pranzo"
 
 [[talks]]
-time = "9:30"
-title = "DiscCheckEmu: un nuovo approccio open source al cracking dei software legacy"
-author = "Luca D’Amico e Giuseppe Prestandrea"
-
-[[talks]]
-time = "10:00"
-title = "Deployment riproducibili con Nix e NixOS"
-author = "Tancredi Orlando"
-
-[[talks]]
-time = "10:30"
-title = "Cosa k8s sono i container?"
-author = "Alberto Pimpo"
-
-[[talks]]
-time = "11:00"
-title = "Il codice che scriviamo è sicuro? Strumenti SAST (Static Application Security Testing)"
-author = "Salvatore Todaro"
-
-[[talks]]
-time = "11:30"
-title = "Da zero a Git: le basi dello sviluppo collaborativo"
-author = "Antonio Battaglia"
-
-[[talks]]
-time = "12:00"
-title = "Offensive Solitaire: attacco e difesa su GNU/Linux"
-author = "Fabio Genovese"
-
-[[talks]]
-time = "12:30"
-title = "Gaming su Linux: Steam Proton"
-author = "Vincenzo Bucaria"
+time = "TBD"
+title = "TBD"
+author = "TBD"
 
 [[workshops]]
-time = "15:00"
-title = "Linux Install Fest"
-author = "MetaGriPwn HackLab"
-room = "Aula Magna"
-
-[[workshops]]
-time = "15:00"
-title = "Come k8s si usano i container?"
-author = "Alberto Pimpo"
-room = "Aula 426"
-
-[[workshops]]
-time = "15:00"
-title = "L’editor di testo Vim"
-author = "Michele Arena"
-room = "Aula 427"
-
-[[workshops]]
-time = "15:00"
-title = "LLM open source"
-author = "Gaetano Pispisa"
-room = "Aula 428"
+time = "TBD"
+title = "TBD"
+author = "TBD"
+room = "TBD"
