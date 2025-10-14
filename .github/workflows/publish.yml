@@ -1,16 +1,50 @@
-on: push
-name: Build and deploy GH Pages
+name: Build and deploy
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
-  publish:
-    permissions:
-      contents: write
+  build:
+    name: Build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master'
+
     steps:
-      - name: checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-      - name: build_and_deploy
-        uses: shalzz/zola-deploy-action@v0.19.2
-        env:
-          PAGES_BRANCH: public
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v27
+
+      - name: Build Zola site with Nix
+        run: nix build .#default
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: result
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
