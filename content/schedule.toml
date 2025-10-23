@@ -7,12 +7,49 @@ time = "13:00"
 title = "Pausa pranzo"
 
 [[talks]]
-time = "TBD"
-title = "TBD"
-author = "TBD"
+time = "9:30"
+title = "Open è meglio: quando la condivisione diventa innovazione"
+author = "Manuel Fabiano  (MetaGriPwn HackLab)"
+
+[[talks]]
+time = "10:00"
+title = "Dal codice aperto ai protocolli condivisi: un nuovo strato di libertà nella fase agentica dell'AI"
+author = "Prof. Giovanni Merlino (Dip. Ing. UniME, MeLUG)"
+
+[[talks]]
+time = "10:30"
+title = "Distribuzioni Linux: quale scegliere?"
+author = "Antonio Battaglia (Associazione Culturale Resolve)"
+
+[[talks]]
+time = "11:30"
+title = "Verso Cyberchallenge.IT 2026"
+author = "Giovanni Arlotta (MetaGriPwn HackLab)"
+
+[[talks]]
+time = "12:00"
+title = "Deployment riproducibili con Nix e NixOS"
+author = "Tancredi Orlando (Dip. Ing. UniME)"
+
+[[talks]]
+time = "12:30"
+title = "ROS e la robotica open-source"
+author = "Gaetano Pispisa (Zancle E-Drive UniME)"
 
 [[workshops]]
-time = "TBD"
-title = "TBD"
-author = "TBD"
-room = "TBD"
+time = "15:00"
+title = "Linux Install Fest"
+author = "Associazione Culturale Resolve"
+room = "Aula 426"
+
+[[workshops]]
+time = "15:00"
+title = "CTF: la palestra degli hacker"
+author = "MetaGriPwn HackLab"
+room = "Aula 427"
+
+[[workshops]]
+time = "15:00"
+title = "Git: collaborare senza caos, come gestire il lavoro di squadra nel mondo open"
+author = "Fabio Orazio Mirto (Dip. Ing. UniME)"
+room = "Aula 428"
