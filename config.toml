@@ -16,7 +16,7 @@ date = "Sabato 25 ottobre"
 year = "2025"
 location = "Dipartimento di Ingegneria"
 location_extra = "Aula Magna"
-eventbrite_url = ""
+eventbrite_url = "https://forms.gle/dVs24Da4J1WduKv79"
 
 [extra.meta]
 description = "Giornata nazionale del software libero e delle libertà digitali. Sabato 25 ottobre al Dipartimento di Ingegneria"
